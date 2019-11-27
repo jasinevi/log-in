@@ -1,0 +1,55 @@
+body{
+    background-color: teal;
+}
+.lentele{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    left: 550px;
+    top: 100px;
+    padding: 20px;
+    background-color: white;
+}
+input{
+    border: none;
+    border-bottom: 1px solid gray ;
+    color: black;
+}
+p{
+    font-family: arial;
+    color: gray;
+}
+input[type="button"]{
+    margin: 30px;
+    padding: 10px;
+    width: 160px;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    font-family: arial;
+
+}
+a{
+    text-decoration: none;
+    color: blue;
+}
+#lentele2{
+    
+    width: 250px;
+    height: 350px;
+    position: absolute;
+    left: 307px;
+    top: 150px;
+    background-color:lightseagreen;
+}
+h1{
+    color: white;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 30px;
+    top: 5px;
+
+}
+
+
+
