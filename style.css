@@ -1,55 +1,38 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 body{
-    background-color: teal;
+    background-color: #01A3BE;
+}
+.viskas{
+    background-color: chartreuse;
+    display: inline-block;
+    width: 700px;
+    height: 500px;
+    margin-left: calc( (100% - 700px) / 2);
+    margin-top: 100px;
 }
 .lentele{
-    position: relative;
-    height: 400px;
+    height: 400px ;
     width: 300px;
-    left: 550px;
-    top: 100px;
-    padding: 20px;
-    background-color: white;
+    background-color: cornflowerblue;
+    display: inline-block;
+    }
+        .lentele h1{
+            margin: 30px;
+        }
+        .lentele a{
+            display: inline-block;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            margin-top: 85% ;
+            }
+.lentele2{
+    display: inline-block;
 }
-input{
-    border: none;
-    border-bottom: 1px solid gray ;
-    color: black;
-}
-p{
-    font-family: arial;
-    color: gray;
-}
-input[type="button"]{
-    margin: 30px;
-    padding: 10px;
-    width: 160px;
-    border-radius: 40px;
-    background-color: blue;
-    color: white;
-    font-family: arial;
-
-}
-a{
-    text-decoration: none;
-    color: blue;
-}
-#lentele2{
-    
-    width: 250px;
-    height: 350px;
-    position: absolute;
-    left: 307px;
-    top: 150px;
-    background-color:lightseagreen;
-}
-h1{
-    color: white;
-    position: relative;
-    font-family: Arial, Helvetica, sans-serif;
-    left: 30px;
-    top: 5px;
-
-}
-
-
-
